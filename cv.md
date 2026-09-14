@@ -23,13 +23,6 @@ My strengths include a systematic approach to problem-solving and the ability to
 #### CV
 Made my first project https://github.com/doferul/rsschool-cv 
 
-### Code examples
-'''
-function multiply(a, b){
-  a * b
-}
-'''
-
 ### Education
    - **Rolling Scopes School**, 2026-2027
    - **RANEPA**, Faculty of Project Management, 2026
