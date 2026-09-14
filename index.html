@@ -1,16 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>Резюме - Kozyreva Daria</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="container">
 
+        <header class="header">
+            <h1 class="header__title">Kozyreva Daria</h1>
+            <p class="header__subtitle">Junior Full-Stack Developer</p>
+            <img src="assets/photo.jpg" alt="Фотография Дарьи Козыревой" class="header__photo">
+        </header>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#about" class="nav__link">Обо мне</a></li>
+                <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Навыки</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Проекты</a></li>
+            </ul>
+        </nav>
+
+        <main class="main">
+            <section id="about" class="section">
+                <h2 class="section__title">Обо мне</h2>
+                <p class="section__text">Open to internships and junior frontend / junior full-stack developer
+                    positions. Стремлюсь создавать удобные и доступные веб-интерфейсы.</p>
+            </section>
+
+            <section id="contacts" class="section">
+                <h2 class="section__title">Контакты</h2>
+                <!-- Контакты оформлены как ul > li (требование кросс-чека) -->
+                <ul class="section__list">
+                    <li class="section__item">Email: your.email@example.com</li>
+                    <li class="section__item">Telegram: @your_telegram</li>
+                    <li class="section__item">GitHub: github.com/doferul</li>
+                </ul>
+            </section>
+
+            <section id="skills" class="section">
+                <h2 class="section__title">Навыки</h2>
+                <!-- Навыки оформлены как ul > li (требование кросс-чека) -->
+                <ul class="section__list">
+                    <li class="section__item">HTML5, CSS3</li>
+                    <li class="section__item">JavaScript (ES6+)</li>
+                    <li class="section__item">Git, GitHub</li>
+                    <li class="section__item">VS Code</li>
+                </ul>
+            </section>
+
+            <section id="english" class="section">
+                <h2 class="section__title">Уровень английского языка</h2>
+                <p class="section__text">A2 (Elementary) / B1 (Intermediate) - укажи свой реальный уровень.</p>
+            </section>
+
+            <section id="projects" class="section">
+                <h2 class="section__title">Учебные проекты</h2>
+                <ul class="section__list">
+                    <li class="section__item">
+                        <strong>CV Layout:</strong> Вёрстка резюме с использованием семантических тегов и CSS.
+                    </li>
+                </ul>
+            </section>
+
+            <section id="code" class="section">
+                <h2 class="section__title">Пример кода</h2>
+                <pre class="section__code"><code>const greeting = "Hello, Rolling Scopes School!";
+console.log(greeting);</code></pre>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class="footer__text">
+                <a href="https://github.com/doferul" class="footer__link" target="_blank">GitHub: doferul</a> |
+            </p>
+            <a href="https://rs.school/" class="footer__link" target="_blank">
+                <!-- Логотип курса со ссылкой на курс (требование кросс-чека) -->
+                <img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/tasks/elearn/stage1/images/rss-logo.png"
+                    alt="RS School Logo" class="footer__logo">
+            </a>
+        </footer>
+
+    </div>
 </body>
 
 </html>
