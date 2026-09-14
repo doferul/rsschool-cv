@@ -1,16 +1,13 @@
 ## Kozyreva Daria
-
-![photo] (/Users/infinity/Downloads/Telegram Desktop/photo_2026-09-14_16-30-43.jpg)
-
 **Junior Full-Stack Developer**
 
 Open to internships and junior frontend / junior full-stack developer positions.
-===
+
 ### About me
 My primary goal is to grow within a team of professionals and create high-quality products. 
 
 My strengths include a systematic approach to problem-solving and the ability to quickly master new technologies. I am eager to adopt industry best practices, learn to work within a team repository, and deliver value to the business from my very first weeks. 
-===
+
 ### Contact information
     - Email: Erin-esa@yandex.ru
     - Discord: Daria Kozyreva (@doferul)
@@ -27,7 +24,6 @@ My strengths include a systematic approach to problem-solving and the ability to
 Made my first project https://github.com/doferul/rsschool-cv 
 
 ### Code examples
-'''
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,12 +31,6 @@ Made my first project https://github.com/doferul/rsschool-cv
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
-'''
-
-# 8. Отправляем изменения в ветку main на удаленный сервер
-git push -u origin mainfunction multiply(a, b){
-  a * b
-}'
 
 ### Education
    - **Rolling Scopes School**, 2026-2027
